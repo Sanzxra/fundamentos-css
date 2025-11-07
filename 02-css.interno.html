@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Interno</title>
+	<style>
+		h1 {
+			color: darkblue;
+			font-family: Arial, Helvetica, sans-serif
+		}
+		/* Selecionando todas as tags <p> */
+		p {
+			color: darkgreen;
+			font-family: 'Courier New', Courier, monospace;
+			font-size: 18px;
+		/*Seletor do tipo Id - quando usamos o identificador do elemento para estilizar. Um id geralmente é identificado com o simbolo de # */
+		}
+		#paragrafo {
+			background-color: lightgray;
+			padding: 10px;
+			border: 2px solid black;
+		}
+	</style>
+</head>
+<body>
+	<h1>Conhecendo a abordagem de CSS Interno</h1>
+	<p>O CSS Interno (ou internal CSS) é o tipo de folha de estilo dentro do próprio documento HTML.</p>
+
+	<p id="paragrafo">
+		Usamos dentro da tag <code>&lt;style&gt;</code> na seção do <code>&lt;head&gt;</code>
+	</p>
+
+	<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure commodi nemo enim cumque quam officiis assumenda temporibus aliquid accusantium quibusdam harum voluptatem, natus tempore nesciunt expedita totam placeat in? Laborum!</p>
+</body>
+</html>
