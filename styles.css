@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+p {
+    color: darkorange;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: 16px;
+}
